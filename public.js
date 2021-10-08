@@ -11,7 +11,8 @@ module.exports = {
 		"bootbox": true,
 		"Visibility": true,
 		"Tinycon": true,
-		"Promise": true
+		"Promise": true,
+		"navigator": true
 	},
 	"env": {
 		"jquery": true,
