@@ -45,7 +45,7 @@ module.exports = {
 		"strict": ["error", "global"],
 		// we actually use tabs for indentation
 		"indent": ["error", "tab", { "SwitchCase": 1 }],
-		"no-tabs": ["error", { allowIndentationTabs: true }]
+		"no-tabs": ["error", { allowIndentationTabs: true }],
 		// we want `== null` to also handle undefined
 		"no-eq-null": "off",
 		// allow `for (..; i++)`
