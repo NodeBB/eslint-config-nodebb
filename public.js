@@ -9,10 +9,10 @@ module.exports = {
 		"overrides": true,
 		"componentHandler": true,
 		"bootbox": true,
-		"Visibility": true,
 		"Tinycon": true,
 		"Promise": true,
-		"navigator": true
+		"navigator": true,
+		"ace": true
 	},
 	"env": {
 		"jquery": true,
@@ -61,7 +61,8 @@ module.exports = {
 		]
 	},
 	"parserOptions": {
-		"ecmaVersion": 2018,
+		"ecmaVersion": 2020,
+		"sourceType": "module",
 		"ecmaFeatures": {
 			"classes": false,
 			"defaultParams": false,
@@ -70,7 +71,6 @@ module.exports = {
 			"generators": false,
 			"globalReturn": false,
 			"jsx": false,
-			"modules": false,
 			"objectLiteralComputedProperties": false,
 			"objectLiteralDuplicateProperties": false,
 			"objectLiteralShorthandMethods": false,
