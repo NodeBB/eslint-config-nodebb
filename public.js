@@ -32,6 +32,7 @@ module.exports = {
 		"no-dupe-class-members": "off",
 		"prefer-object-spread": "off",
 		"prefer-reflect": "off",
+		"strict": "off",
 
 		// ES6
 		"prefer-rest-params": "off",
