@@ -1,9 +1,11 @@
+const { configs } = require('@eslint/js');
 module.exports = [
+	configs.recommended,
 	{
 	  files: ['**/*.js'],
 	  languageOptions: {
 		ecmaVersion: 2020,
-		sourceType: 'script', // equivalent to your v8 "parserOptions.sourceType"
+		sourceType: 'script',
 		globals: {
 		  // Node.js globals are implied, no need to redefine unless custom ones are used
 		}
