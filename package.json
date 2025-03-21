@@ -8,12 +8,12 @@
   },
   "keywords": [],
   "author": "",
-  "dependencies": {
-    "eslint-config-airbnb-base": "15.0.0"
+  "exports": {
+    ".": "./index.js",
+    "./public": "./public.js"
   },
   "peerDependencies": {
-    "eslint": "7.x || 8.x",
-    "eslint-plugin-import": "2.x"
+    "eslint": "^9.x"
   },
   "license": "ISC"
 }
