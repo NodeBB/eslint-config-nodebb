@@ -15,7 +15,6 @@ module.exports = [
 	  },
 	  rules: {
 		// === Project Style Rules ===
-		'import/no-unresolved': 'error',
 		'quotes': ['error', 'single', {
 		  avoidEscape: true,
 		  allowTemplateLiterals: true
@@ -85,8 +84,6 @@ module.exports = [
 		'consistent-return': 'off',
 		'no-restricted-globals': 'off',
 		'no-prototype-builtins': 'off',
-		'import/no-extraneous-dependencies': 'off',
-		'import/no-dynamic-require': 'off',
 		'global-require': 'off',
 		'no-param-reassign': 'off',
 		'default-case': 'off'
