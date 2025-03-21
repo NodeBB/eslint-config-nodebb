@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "exports": {
-    ".": "./index.cjs",
+    ".": "./index.js",
     "./public": "./public.js"
   },
   "peerDependencies": {

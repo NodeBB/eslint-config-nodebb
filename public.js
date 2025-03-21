@@ -1,4 +1,4 @@
-export default [
+module.exports = [
 	{
 	  files: ['**/*.js'],
 	  languageOptions: {
@@ -65,4 +65,4 @@ export default [
 		]
 	  }
 	}
-  ];
+];
