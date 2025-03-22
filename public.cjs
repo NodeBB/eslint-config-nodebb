@@ -1,3 +1,5 @@
+const globals = require('globals');
+
 module.exports = [
 	{
 		files: ['public/**/*.js', 'static/**/*.js'],
