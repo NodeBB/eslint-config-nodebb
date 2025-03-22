@@ -9,8 +9,8 @@
   "keywords": [],
   "author": "",
   "exports": {
-    ".": "./index.js",
-    "./public": "./public.js"
+    ".": "./index.cjs",
+    "./public": "./public.cjs"
   },
   "peerDependencies": {
     "eslint": "^9.x",
