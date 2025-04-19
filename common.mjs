@@ -20,6 +20,7 @@ export default {
 	'@stylistic/js/space-infix-ops': 'error',
 	'@stylistic/js/space-in-parens': ['error', 'never'],
 	'@stylistic/js/space-before-function-paren': ['error', {'anonymous': 'always', 'named': 'ignore' }],
+	'@stylistic/js/function-call-spacing': ['error', 'never'],
 	'@stylistic/js/indent': ['error', 'tab', { SwitchCase: 1 }],
 	'@stylistic/js/no-tabs': ['error', { allowIndentationTabs: true }],
 	'@stylistic/js/object-curly-newline': ['error', { consistent: true, multiline: true }],
