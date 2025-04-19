@@ -31,6 +31,8 @@ export default {
 	'no-empty': ['error', { allowEmptyCatch: true }],
 	'no-irregular-whitespace': 'error',
 	'no-prototype-builtins': 'off',
+	'no-bitwise': 'warn',
+	'no-await-in-loop': 'warn',
 
 	'no-restricted-syntax': ['error',
 		{
