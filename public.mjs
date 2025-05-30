@@ -1,6 +1,6 @@
 
 import globals from 'globals';
-import stylisticJs from '@stylistic/eslint-plugin-js';
+import stylisticJs from '@stylistic/eslint-plugin';
 import { defineConfig } from 'eslint/config';
 import js from '@eslint/js';
 import commonRules from './common.mjs';
