@@ -11,7 +11,7 @@ export default {
 	}],
 	'@stylistic/js/quotes': ['error', 'single', {
 		avoidEscape: true,
-		allowTemplateLiterals: true,
+		allowTemplateLiterals: "always",
 	}],
 	'@stylistic/js/operator-linebreak': ['error', 'after'],
 	'@stylistic/js/no-mixed-operators': ['error', { allowSamePrecedence: true }],
