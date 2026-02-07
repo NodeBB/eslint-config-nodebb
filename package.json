@@ -14,7 +14,7 @@
     "./common": "./common.mjs"
   },
   "peerDependencies": {
-    "@eslint/js": "^9.x",
+    "@eslint/js": "^9.x || ^10.0.0",
     "@stylistic/eslint-plugin": "^5.x",
     "eslint-plugin-import": "2.32.0"
   },
