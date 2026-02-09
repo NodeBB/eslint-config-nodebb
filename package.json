@@ -13,6 +13,9 @@
     "./public": "./public.mjs",
     "./common": "./common.mjs"
   },
+  "dependencies": {
+    "globals": "17.3.0"
+  },
   "peerDependencies": {
     "@eslint/js": "^10.0.0",
     "@stylistic/eslint-plugin": "^5.x"
