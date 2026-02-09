@@ -28,6 +28,7 @@ export default {
 	'prefer-const': ['error', { destructuring: 'all' }],
 	'no-else-return': ['error', { allowElseIf: true }],
 	'no-unused-vars': ['error', { caughtErrors: 'none' }],
+	'no-var': 'error',
 	'no-empty': ['error', { allowEmptyCatch: true }],
 	'no-irregular-whitespace': 'error',
 	'no-prototype-builtins': 'off',
