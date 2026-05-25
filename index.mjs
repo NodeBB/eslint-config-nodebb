@@ -20,6 +20,7 @@ export default defineConfig([
 			sourceType: 'commonjs',
 			globals: {
 				...globals.node,
+				nodebb: 'readonly'
 			},
 	  	},
 		linterOptions: {
