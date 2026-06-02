@@ -1,29 +1,25 @@
 # eslint-config-nodebb
 
-This package provides NodeBB's .eslintrc for server & client sides as an extensible shared config.
+This package provides NodeBB's eslint.config.js files for server & client sides as an extensible shared config.
 
 ## Usage
 
 We export two ESLint configurations for your usage.
-Both configurations require `eslint` and `eslint-plugin-import`.
 
-### `eslint-config-nodebb`
+To add this to your plugin add an eslint.config.js file to the root of your plugin folder with the contents.
 
-Our default export is used to lint the backend-side.
-You should use it at the root of your plugins/themes/etc.
+```
+'use strict';
 
-This config is based on [`airbnb-base`](https://www.npmjs.com/package/eslint-config-airbnb-base) config with some overwritten rules.
+import serverConfig from 'eslint-config-nodebb';
+import publicConfig from 'eslint-config-nodebb/public';
 
-1. [Install `peerDependencies`](#Peer-dependencies)
-2. Add `"extends": "nodebb"` or `"extends": "nodebb/lib"` to your `.eslintrc`.
+export default [
+	...publicConfig,
+	...serverConfig,
+];
+```
 
-### `eslint-config-nodebb/public`
-
-Second configuration is used to lint the frontend-side.
-You should use it in the folder with files for client (scripts, acpScripts, etc.).
-
-1. [Install `peerDependencies`](#Peer-dependencies)
-2. Add `"extends": "nodebb/public"` to your `.eslintrc`.
 
 ## Peer dependencies
 
@@ -76,4 +72,3 @@ npm install --save-dev eslint-config-nodebb eslint@^#.#.# eslint-plugin-import@^
 ## Credits
 - [eslint](https://www.npmjs.com/package/eslint)
 - [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
-- [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base)
