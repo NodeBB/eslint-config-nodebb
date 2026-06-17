@@ -26,7 +26,6 @@ export default defineConfig([
 				config: 'writable',
 				utils: 'writable',
 				overrides: 'writable',
-				bootbox: 'writable',
 				Tinycon: 'writable',
 				Promise: 'writable',
 				ace: 'writable',
