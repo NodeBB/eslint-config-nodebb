@@ -31,7 +31,7 @@ export default defineConfig([
 
 			// === Project Style Rules ===
 			'@stylistic/js/arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
-			'@stylistic/js/function-paren-newline': ['error', 'consistent'],
+
 
 			// deprecated in eslint but still works
 			'handle-callback-err': ['error', '^(e$|(e|(.*(_e|E)))rr)'],
