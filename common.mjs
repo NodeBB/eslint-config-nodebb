@@ -23,25 +23,7 @@ export default {
 	'@stylistic/js/function-call-spacing': ['error', 'never'],
 	'@stylistic/js/indent': ['error', 'tab', { SwitchCase: 1 }],
 	'@stylistic/js/no-tabs': ['error', { allowIndentationTabs: true }],
-	'@stylistic/js/list-style': ['error', {
-		overrides: {
-			// Disable brackets you weren't enforcing with these two rules
-			'[]': 'off',
-			'<>': 'off',
-
-			// Replaces '@stylistic/js/function-paren-newline': ['error', 'consistent']
-			'()': {
-				singleLine: { spacing: 'never' },
-				multiLine: { minItems: 1 },
-			},
-
-			// Replaces '@stylistic/js/object-curly-newline': ['error', { consistent: true, multiline: true }]
-			'{}': {
-				singleLine: { spacing: 'always' }, // Keeps { a: 1 } spaced; use 'never' if you prefer {a: 1}
-				multiLine: { minItems: 1 },
-			},
-		},
-	}],
+	'@stylistic/js/object-curly-newline': ['error', { consistent: true, multiline: true }],
 
 	'prefer-const': ['error', { destructuring: 'all' }],
 	'no-else-return': ['error', { allowElseIf: true }],
