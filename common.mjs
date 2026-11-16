@@ -23,7 +23,7 @@ export default {
 	'@stylistic/js/function-call-spacing': ['error', 'never'],
 	'@stylistic/js/indent': ['error', 'tab', { SwitchCase: 1 }],
 	'@stylistic/js/no-tabs': ['error', { allowIndentationTabs: true }],
-	'@stylistic/list-style': ['error', {
+	'@stylistic/js/list-style': ['error', {
 		overrides: {
 			// Disable brackets you weren't enforcing with these two rules
 			'[]': 'off',
